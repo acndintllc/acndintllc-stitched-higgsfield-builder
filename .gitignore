@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Build pipeline caches and outputs
+.next/
+lora_cache/
+voice_cache/
+output/
+*.safetensors

@@ -1,0 +1,95 @@
+1
+00:00:00,000 --> 00:00:20,000
+Alex enters library. A thoughtful presence fills the air
+
+2
+00:00:20,000 --> 00:00:40,000
+Alex moves through library with determination and grace
+
+3
+00:00:40,000 --> 00:01:00,000
+The atmosphere shifts: Alex contemplates the thoughtful
+
+4
+00:01:00,000 --> 00:01:20,000
+Jordan enters park. A energetic presence fills the air
+
+5
+00:01:20,000 --> 00:01:40,000
+Jordan moves through park with determination and grace
+
+6
+00:01:40,000 --> 00:02:00,000
+The atmosphere shifts: Jordan contemplates the energetic
+
+7
+00:02:00,000 --> 00:02:20,000
+Casey enters office. A professional presence fills the air
+
+8
+00:02:20,000 --> 00:02:40,000
+Casey moves through office with determination and grace
+
+9
+00:02:40,000 --> 00:03:00,000
+The atmosphere shifts: Casey contemplates the professional
+
+10
+00:03:00,000 --> 00:03:20,000
+Morgan enters home. A intimate presence fills the air
+
+11
+00:03:20,000 --> 00:03:40,000
+Morgan moves through home with determination and grace
+
+12
+00:03:40,000 --> 00:04:00,000
+The atmosphere shifts: Morgan contemplates the intimate
+
+13
+00:04:00,000 --> 00:04:20,000
+Riley enters street. A determined presence fills the air
+
+14
+00:04:20,000 --> 00:04:40,000
+Riley moves through street with determination and grace
+
+15
+00:04:40,000 --> 00:05:00,000
+The atmosphere shifts: Riley contemplates the determined
+
+16
+00:05:00,000 --> 00:05:20,000
+Taylor enters beach. A peaceful presence fills the air
+
+17
+00:05:20,000 --> 00:05:40,000
+Taylor moves through beach with determination and grace
+
+18
+00:05:40,000 --> 00:06:00,000
+The atmosphere shifts: Taylor contemplates the peaceful
+
+19
+00:06:00,000 --> 00:06:20,000
+Blake enters city. A urgent presence fills the air
+
+20
+00:06:20,000 --> 00:06:40,000
+Blake moves through city with determination and grace
+
+21
+00:06:40,000 --> 00:07:00,000
+The atmosphere shifts: Blake contemplates the urgent moment
+
+22
+00:07:00,000 --> 00:07:20,000
+Quinn enters forest. A mysterious presence fills the air
+
+23
+00:07:20,000 --> 00:07:40,000
+Quinn moves through forest with determination and grace
+
+24
+00:07:40,000 --> 00:08:00,000
+The atmosphere shifts: Quinn contemplates the mysterious

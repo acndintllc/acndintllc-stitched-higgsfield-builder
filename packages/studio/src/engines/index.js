@@ -1,8 +1,9 @@
 /**
  * Engine Abstraction Layer
  *
- * Factory function that returns the active engine backend based on ENV.
- * Supports: wan2gp (primary), muapi-fallback (fallback)
+ * Wan2GP is the only backend. Muapi was dropped from the architecture: its
+ * 18-second clip cap forces 27-96 clips per 8-minute video, which the
+ * rented-GPU model replaces outright.
  *
  * Usage:
  *   const engine = require('./engines');
@@ -16,26 +17,15 @@
  */
 
 const wan2gpEngine = require('./wan2gp');
-const muapiEngine = require('./muapi-fallback');
 
-// Determine active engine from environment
-const ENGINE_MODE = process.env.ENGINE_MODE || 'wan2gp';
+const ENGINE_MODE = 'wan2gp';
 
 /**
  * Get the active engine instance
  * @returns {Object} Engine with generate() method
  */
 function getEngine() {
-  switch (ENGINE_MODE.toLowerCase()) {
-    case 'wan2gp':
-      return wan2gpEngine;
-    case 'muapi':
-    case 'muapi-fallback':
-      return muapiEngine;
-    default:
-      console.warn(`Unknown ENGINE_MODE: ${ENGINE_MODE}, defaulting to wan2gp`);
-      return wan2gpEngine;
-  }
+  return wan2gpEngine;
 }
 
 /**
@@ -56,7 +46,7 @@ async function generate({ prompt, firstFrame = null, soulId, voiceId }) {
   const engine = getEngine();
 
   if (!engine || typeof engine.generate !== 'function') {
-    throw new Error(`Engine not initialized or missing generate method`);
+    throw new Error('Engine not initialized or missing generate method');
   }
 
   return engine.generate({
@@ -78,6 +68,5 @@ module.exports = {
   generate,
   getCurrentEngine,
   // Expose internals for testing
-  _wan2gp: wan2gpEngine,
-  _muapi: muapiEngine
+  _wan2gp: wan2gpEngine
 };
